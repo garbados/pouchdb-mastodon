@@ -1,0 +1,25 @@
+{
+  "name": "@garbados/pouchdb-mastodon",
+  "version": "1.0.1",
+  "description": "A plugin for PouchDB to interact with Mastodon.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "standard --fix && dependency-check index.js test.js -i mocha -i standard -i dependency-check && mocha && npm audit fix"
+  },
+  "author": "Diana Thayer <garbados@gmail.com>",
+  "license": "AGPL-3.0",
+  "devDependencies": {
+    "dependency-check": "^4.1.0",
+    "inquirer": "^7.3.1",
+    "mocha": "^8.0.1",
+    "pouchdb": "^7.2.1",
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "bent": "^7.3.7",
+    "lodash.isequal": "^4.5.0"
+  }
+}
